@@ -1,7 +1,7 @@
 import { NavLink, SocialLink } from "@/types";
 
 export const siteConfig = {
-  name: "Raghu",
+  name: "Raghavendra D M",
   fullTitle: "Raghu — CSE Student & Cybersecurity-Minded Frontend Developer",
   role: "Computer Science & Engineering Student",
   roles: [
@@ -21,7 +21,7 @@ export const siteConfig = {
   description:
     "Portfolio of Raghu — a Computer Science & Engineering student specializing in cybersecurity, frontend development, and creative motion design. Building secure, elegant, and performant digital experiences.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://raghu.dev",
-  email: "hello@raghu.dev",
+  email: "raghavendradm0@gmail.com",
   location: "India",
   ogImage: "/images/og-image.jpg",
   keywords: [

@@ -2,22 +2,22 @@ import { Skill, TechStackItem } from "@/types";
 
 export const skills: Skill[] = [
   // Languages
-  { name: "JavaScript", level: 92, category: "languages" },
-  { name: "TypeScript", level: 85, category: "languages" },
-  { name: "Python", level: 88, category: "languages" },
-  { name: "C++", level: 80, category: "languages" },
-  { name: "Java", level: 75, category: "languages" },
-  { name: "SQL", level: 78, category: "languages" },
+  { name: "JavaScript", level: 30, category: "languages" },
+  { name: "TypeScript", level: 30, category: "languages" },
+  { name: "Python", level: 50, category: "languages" },
+  { name: "C++", level: 20, category: "languages" },
+  { name: "Java", level: 30, category: "languages" },
+  { name: "SQL", level: 10, category: "languages" },
 
   // Frontend
   { name: "HTML", level: 96, category: "frontend" },
   { name: "CSS", level: 93, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
   { name: "Next.js", level: 87, category: "frontend" },
-  { name: "Tailwind CSS", level: 94, category: "frontend" },
+  { name: "Tailwind CSS", level: 50, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 82, category: "backend" },
+  { name: "Node.js", level: 50, category: "backend" },
 
   // Security & Networking
   { name: "Cybersecurity", level: 84, category: "security" },
