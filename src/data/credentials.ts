@@ -3,12 +3,12 @@ import { Achievement, Certification, Service, StatItem } from "@/types";
 export const certifications: Certification[] = [
   {
     id: "cert-1",
-    title: "Google Cybersecurity Professional Certificate",
-    issuer: "Google / Coursera",
-    date: "2025",
-    credentialUrl: "https://coursera.org/verify/example1",
+    title: "Advanced Software Engineering Job Simulation",
+    issuer: "Walmart Global Tech",
+    date: "2026",
+    credentialUrl: "https://www.theforage.com/completion-certificates/prBZoAihniNijyD6d/oX6f9BbCL9kJDJzfg_prBZoAihniNijyD6d_6a4f22e31940c5c3e7d42688_1783573518536_completion_certificate.pdf",
     image: "/images/certifications/google-cyber.jpg",
-    skills: ["Network Security", "SIEM Tools", "Incident Response", "Python"],
+    skills: ["Data Structures", "Python Programming", "Software architecture", "SQL"],
   },
   {
     id: "cert-2",
