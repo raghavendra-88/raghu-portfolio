@@ -48,12 +48,12 @@ export const certifications: Certification[] = [
   },
   {
     id: "cert-6",
-    title: "Adobe Certified Professional — Motion Graphics",
-    issuer: "Adobe",
-    date: "2023",
-    credentialUrl: "https://adobe.com/verify/example6",
+    title: "Zscaler-Fundementals of cybersecurity",
+    issuer: "Zscaler",
+    date: "2024",
+    credentialUrl: " https://verify.skilljar.com/c/bgjhkfsrzt79",
     image: "/images/certifications/adobe-motion.jpg",
-    skills: ["After Effects", "Premiere Pro", "Motion Design"],
+    skills: ["basics of cybersecurity"],
   },
 ];
 
