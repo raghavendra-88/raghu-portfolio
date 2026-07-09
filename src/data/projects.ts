@@ -3,16 +3,16 @@ import { Project } from "@/types";
 export const projects: Project[] = [
   {
     id: "proj-1",
-    title: "CipherNet — Network Intrusion Visualizer",
-    slug: "ciphernet-intrusion-visualizer",
+    title: "Be-Zone",
+    slug: "website for Beauty parlour",
     description:
-      "A real-time dashboard that visualizes simulated network traffic and flags anomalous patterns using rule-based detection.",
+      "BE-ZONE is a modern beauty salon eCommerce website that allows customers to explore beauty services, shop premium skincare and cosmetic products, book appointments online, and enjoy a seamless digital beauty experience.",
     longDescription:
-      "CipherNet ingests packet-capture data and renders live traffic as an animated force-graph, highlighting suspicious flows in real time. Built to make network security concepts tangible for students: it combines a Python/Scapy backend for packet parsing with a React + D3 frontend for visualization, and includes a rule engine for detecting port scans, ARP spoofing patterns, and unusual data-exfiltration volumes.",
+      "capy backend for pacludes a rule engine for detecting port scans, ARP spoofing patterns, and unusual data-exfiltration volumes.",
     category: ["security", "web"],
     image: "/images/projects/ciphernet.jpg",
     tech: ["Python", "React", "D3.js", "Scapy", "WebSockets"],
-    liveUrl: "https://ciphernet-demo.vercel.app",
+    liveUrl: "https://be-zone.lovable.app",
     githubUrl: "https://github.com/raghu/ciphernet",
     featured: true,
     year: "2025",
