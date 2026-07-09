@@ -26,7 +26,8 @@ export default function SectionHeading({
     >
       <RevealOnScroll>
         <span className="chip-mono inline-block text-cyan-glow">
-          // {eyebrow}
+          {"// "}
+          {eyebrow}
         </span>
         <h2 className="mt-3 font-display text-4xl font-bold tracking-tight text-ink sm:text-5xl">
           {title}
