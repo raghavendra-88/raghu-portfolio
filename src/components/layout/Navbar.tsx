@@ -11,6 +11,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
+  const [avatarError, setAvatarError] = useState(false);
 
   useEffect(() => {
     function handleScroll() {
@@ -83,8 +84,17 @@ export default function Navbar() {
               data-cursor="hover"
               aria-label={`${siteConfig.name} — back to top`}
             >
-              <span className="flex h-9 w-9 items-center justify-center rounded-lg border border-cyan-glow/30 bg-cyan-glow/10 font-mono text-sm text-cyan-glow transition-transform duration-300 group-hover:scale-110">
-                R_
+              <span className="relative flex h-9 w-9 shrink-0 items-center justify-center overflow-hidden rounded-full border border-cyan-glow/30 bg-cyan-glow/10 font-mono text-sm text-cyan-glow shadow-[0_0_0_2px_rgba(0,229,255,0.08)] transition-transform duration-300 group-hover:scale-110">
+                {!avatarError ? (
+                  <img
+                    src="/images/profile.jpg"
+                    alt=""
+                    onError={() => setAvatarError(true)}
+                    className="h-full w-full object-cover"
+                  />
+                ) : (
+                  "R_"
+                )}
               </span>
               <span className="hidden sm:inline">
                 {siteConfig.name}

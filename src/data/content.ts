@@ -28,6 +28,7 @@ export const galleryItems: GalleryItem[] = [
     category: "Video Editing",
     image: "/images/gallery/product-launch.jpg",
     type: "video-edit",
+    video: "/videos/gallery/product-launch.mp4",
   },
   {
     id: "gal-5",
@@ -56,6 +57,7 @@ export const galleryItems: GalleryItem[] = [
     category: "Video Editing",
     image: "/images/gallery/event-highlight.jpg",
     type: "video-edit",
+    video: "/videos/gallery/event-highlight.mp4",
   },
 ];
 

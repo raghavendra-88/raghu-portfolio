@@ -100,6 +100,7 @@ export interface GalleryItem {
   category: string;
   image: string;
   type: "design" | "video-edit" | "motion-graphics" | "digital-art";
+  video?: string;
 }
 
 export interface BlogPost {

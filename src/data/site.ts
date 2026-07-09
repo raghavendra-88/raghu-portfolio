@@ -49,7 +49,7 @@ export const navLinks: NavLink[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-  { label: "GitHub", href: "https://github.com/raghu", icon: "github" },
+  { label: "GitHub", href: "https://github.com/raghavendra-88", icon: "github" },
   {
     label: "LinkedIn",
     href: "https://linkedin.com/in/raghu",
@@ -61,5 +61,5 @@ export const socialLinks: SocialLink[] = [
     href: "https://instagram.com/raghu",
     icon: "instagram",
   },
-  { label: "Email", href: "mailto:hello@raghu.dev", icon: "mail" },
+  { label: "Email", href: "raghavendradm0@gmail.com", icon: "mail" },
 ];

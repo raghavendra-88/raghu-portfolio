@@ -67,7 +67,7 @@ export const timelineItems: TimelineItem[] = [
       "Developed a personal illustration style spanning cyberpunk and minimalist aesthetics",
       "Collaborated with student clubs on visual identity and social media design",
     ],
-    tags: ["Photoshop", "Illustrator", "Digital Art"],
+    tags: ["Photoshop", "capcut", "Digital Art"],
   },
   {
     id: "edu-2",

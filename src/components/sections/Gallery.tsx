@@ -2,17 +2,17 @@
 
 import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X } from "lucide-react";
+import { Play, X } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { staggerContainerVariants, staggerItemVariants } from "@/components/animations/StaggerReveal";
 import { galleryItems, galleryFilters } from "@/data/content";
 import { cn } from "@/lib/utils";
 
+type GalleryItemType = (typeof galleryItems)[number];
+
 export default function Gallery() {
   const [activeFilter, setActiveFilter] = useState("all");
-  const [lightboxItem, setLightboxItem] = useState<
-    (typeof galleryItems)[number] | null
-  >(null);
+  const [lightboxItem, setLightboxItem] = useState<GalleryItemType | null>(null);
   const [errorMap, setErrorMap] = useState<Record<string, boolean>>({});
 
   const filteredItems = useMemo(() => {
@@ -93,6 +93,13 @@ export default function Gallery() {
                     </span>
                   </div>
                 )}
+                {item.video && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-void-100/20 transition-colors duration-300 group-hover:bg-void-100/40">
+                    <span className="flex h-12 w-12 items-center justify-center rounded-full border border-white/30 bg-void/70 text-ink backdrop-blur-sm transition-transform duration-300 group-hover:scale-110">
+                      <Play size={18} className="ml-0.5 fill-ink" />
+                    </span>
+                  </div>
+                )}
                 <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-void-100/95 via-void-100/20 to-transparent p-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
                   <span className="chip-mono text-cyan-soft">
                     {item.category}
@@ -136,7 +143,19 @@ export default function Gallery() {
               onClick={(e) => e.stopPropagation()}
               className="max-h-[80vh] max-w-3xl overflow-hidden rounded-2xl border border-glass-border"
             >
-              {!errorMap[lightboxItem.id] ? (
+              {lightboxItem.video ? (
+                <video
+                  key={lightboxItem.id}
+                  src={lightboxItem.video}
+                  poster={lightboxItem.image}
+                  controls
+                  autoPlay
+                  playsInline
+                  className="max-h-[80vh] w-full bg-black object-contain"
+                >
+                  Your browser doesn&apos;t support embedded video.
+                </video>
+              ) : !errorMap[lightboxItem.id] ? (
                 <img
                   src={lightboxItem.image}
                   alt={lightboxItem.title}
