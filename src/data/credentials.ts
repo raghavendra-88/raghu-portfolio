@@ -192,6 +192,24 @@ export const achievements: Achievement[] = [
     metric: "5+",
   },
 ];
+export interface EduSkillsCertificate {
+  id: string;
+  title: string;
+  image: string;
+}
+
+export const eduSkillsCertificates: EduSkillsCertificate[] = [
+  {
+    id: "eduskills-1",
+    title: "AI-ML Virtual internship", // replace with the real title
+    image: "/images/certifications/eduskills/eduskills-1.jpg",
+  },
+  {
+    id: "eduskills-2",
+    title: "AWS Data Engineer", // replace with the real title
+    image: "/images/certifications/eduskills/eduskills-2.jpg",
+  },
+];
 
 export const stats: StatItem[] = [
   { label: "Projects Shipped", value: 15, suffix: "+", icon: "Rocket" },
