@@ -80,7 +80,7 @@ export default function Navbar() {
                 e.preventDefault();
                 handleNavClick("#hero");
               }}
-              className="group flex items-center gap-2 font-display text-lg font-bold tracking-tight text-ink"
+              className="group flex min-w-0 items-center gap-2 font-display text-sm font-bold tracking-tight text-ink sm:text-lg"
               data-cursor="hover"
               aria-label={`${siteConfig.name} — back to top`}
             >
@@ -96,7 +96,7 @@ export default function Navbar() {
                   "R_"
                 )}
               </span>
-              <span className="hidden sm:inline">
+              <span className="truncate">
                 {siteConfig.name}
                 <span className="text-cyan-glow">.</span>
               </span>
