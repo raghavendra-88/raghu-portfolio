@@ -13,7 +13,7 @@ export const projects: Project[] = [
     image: "/images/projects/ciphernet.jpg",
     tech: ["Python", "React", "D3.js", "Scapy", "WebSockets"],
     liveUrl: "https://be-zone.lovable.app",
-    githubUrl: "https://github.com/raghu/ciphernet",
+    githubUrl: "https://github.com/raghavendradmprassu2005-bot/be-zone.git",
     featured: true,
     year: "2025",
     status: "completed",

@@ -72,11 +72,11 @@ export const timelineItems: TimelineItem[] = [
   {
     id: "edu-2",
     type: "education",
-    title: "B.Tech, Computer Science & Engineering",
-    organization: "University / College",
+    title: "BE, Computer Science & Engineering",
+    organization: "Srinivas Institute of Technology",
     location: "India",
     startDate: "2023",
-    endDate: "2027 (Expected)",
+    endDate: "2027",
     description:
       "Undergraduate degree focused on core computer science fundamentals, with electives in cybersecurity, networks, and artificial intelligence.",
     highlights: [
@@ -90,15 +90,15 @@ export const timelineItems: TimelineItem[] = [
     id: "edu-1",
     type: "education",
     title: "Higher Secondary Education (Science)",
-    organization: "Senior Secondary School",
+    organization: "Dr.Thimmareddy College Davanagere",
     location: "India",
     startDate: "2021",
     endDate: "2023",
     description:
-      "Completed higher secondary education with a focus on Physics, Chemistry, Mathematics and Computer Science — the foundation for a computing career.",
+      "Completed higher secondary education with a focus on Physics, Chemistry, Mathematics and Science.",
     highlights: [
-      "Specialized in Computer Science as a core subject",
-      "Built first programming projects in Python and C++",
+      "started exploring new ideas",
+      "I Started doing editing",
       "Discovered a passion for design through school media & event branding",
     ],
     tags: ["PCM", "Computer Science", "Foundations"],

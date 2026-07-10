@@ -93,10 +93,10 @@ function JsonLd() {
     jobTitle: siteConfig.role,
     description: siteConfig.description,
     sameAs: [
-      "https://github.com/raghu",
+      "https://github.com/raghavendra-88",
       "https://linkedin.com/in/raghu",
       "https://x.com/raghu",
-      "https://instagram.com/raghu",
+      "https://www.instagram.com/x_raghu._x__/",
     ],
     knowsAbout: [
       "Cybersecurity",

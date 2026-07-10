@@ -67,7 +67,7 @@ export default function About() {
       <div className="container">
         <SectionHeading
           eyebrow="about_me"
-          title="One desk, several disciplines."
+          title="Passionate Computer Science Engineer"
           description="I move between securing systems and designing them — and I've found the overlap between the two is where the most interesting work lives."
         />
 

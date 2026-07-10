@@ -58,7 +58,7 @@ export const socialLinks: SocialLink[] = [
   { label: "Twitter / X", href: "https://x.com/raghu", icon: "twitter" },
   {
     label: "Instagram",
-    href: "https://instagram.com/raghu",
+    href: "https://www.instagram.com/x_raghu._x__/",
     icon: "instagram",
   },
   { label: "Email", href: "raghavendradm0@gmail.com", icon: "mail" },
